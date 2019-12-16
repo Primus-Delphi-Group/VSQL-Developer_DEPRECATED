@@ -40,7 +40,7 @@ To do so press 'ctrl + shift + p', type in "settings" and choose "Preferences: O
 ```
 Then search for "vsql-developer" and add the path of your SQLcl installation.
 ```
-![](vsql-developerreadme-images/sqlclPath.png)
+![](vsql-developer/readme-images/sqlclPath.png)
 Note: It may only work after you have restarted Visual Studio code.
 
 
@@ -50,7 +50,7 @@ For this you have to create a file named "database_connectionStrings.json" in
 the root folder of your project.
 Now you can add some connections like shown in the image below.
 ```
-![](vsql-developerreadme-images/databaseStrings.PNG)
+![](vsql-developer/readme-images/databaseStrings.PNG)
 
 Note: Just save the file. The extension will automatically recognize it.
 
