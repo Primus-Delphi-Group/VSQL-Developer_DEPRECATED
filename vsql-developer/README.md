@@ -68,4 +68,8 @@ To get a permanent connection we are currently working on a version which adjust
 
 Initial release of VSQL-Developer
 
+## Acknowledgments
+### Thanks to
+*  Morten Braten whose [guide](https://ora-00001.blogspot.com/2017/03/using-vs-code-for-plsql-development.html) and error file I used
+*  Trent Schafer [odb-task extension](https://marketplace.visualstudio.com/items?itemName=tschf.odb-task) for some inspiration
 -----------------------------------------------------------------------------------------------------------
