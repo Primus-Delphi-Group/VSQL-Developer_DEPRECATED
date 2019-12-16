@@ -48,7 +48,7 @@ The second step is to add you personal database connection strings
 ```
 For this you have to create a file named "database_connectionStrings.json" in  
 the root folder of your project.
-Now you can add somme connections like shown in the image below.
+Now you can add some connections like shown in the image below.
 ```
 ![](readme-images/databaseStrings.PNG)
 
