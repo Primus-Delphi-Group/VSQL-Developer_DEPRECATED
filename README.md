@@ -7,21 +7,21 @@ There are three ways to get this extension running.
 2. You can also download an installable [file]().  
 3. If you want to adjust or expand the extension yourself you can follow the [installing](#Installing) instructions .
 
-No matter which way you choose, after you have installed the extension you have to do a quick [setup](https://github.com/fd-primus/VSQL-Developer#Setup).
+No matter which way you choose, after you have installed the extension you have to do a quick [setup](#Setup).
 
 ### Prerequisites
 
 **Needed:**  
-To install the extension you obviously need **Visual Studio Code** (developed with version 1.40.1)  
-You will also need **SQLcl** which is used to compile the code
+..* **Visual Studio Code** (this extension was developed with version 1.40.1)
+..* **SQLcl** which is used to compile the code
 
 Get VsCode [here](https://code.visualstudio.com/)   
 Get SQLcl [here](https://www.oracle.com/de/database/technologies/appdev/sqlcl.html)
 
 **Recommended:**  
-[Language PL/SQL](https://marketplace.visualstudio.com/items?itemName=xyz.plsql-language)  
-[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)  
-[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+..* [Language PL/SQL](https://marketplace.visualstudio.com/items?itemName=xyz.plsql-language)  
+..* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)  
+..* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 
 ### Installing
