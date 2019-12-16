@@ -1,0 +1,14 @@
+[
+    {
+        "targetName":"Beispiel 1",
+        "connectionString":"NOT A REAL CONNECTION STRING"
+    },
+    {
+        "targetName":"Beispiel 2",
+        "connectionString":"NOT A REAL CONNECTION STRING" 
+    },
+    {
+        "targetName":"Beispiel 3",
+        "connectionString":"NOT A REAL CONNECTION STRING" 
+    }
+]
