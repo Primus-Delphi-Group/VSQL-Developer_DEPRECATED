@@ -12,16 +12,16 @@ No matter which way you choose, after you have installed the extension you have 
 ### Prerequisites
 
 **Needed:**  
-..* **Visual Studio Code** (this extension was developed with version 1.40.1)
-..* **SQLcl** which is used to compile the code
+* **Visual Studio Code** (this extension was developed with version 1.40.1)
+* **SQLcl** which is used to compile the code
 
 Get VsCode [here](https://code.visualstudio.com/)   
 Get SQLcl [here](https://www.oracle.com/de/database/technologies/appdev/sqlcl.html)
 
 **Recommended:**  
-..* [Language PL/SQL](https://marketplace.visualstudio.com/items?itemName=xyz.plsql-language)  
-..* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)  
-..* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+* [Language PL/SQL](https://marketplace.visualstudio.com/items?itemName=xyz.plsql-language)  
+* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)  
+* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 
 ### Installing
