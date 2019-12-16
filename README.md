@@ -7,11 +7,11 @@ There are three ways to get this extension running.
 2. You can also download an installable [file]().  
 3. If you want to adjust or expand the extension yourself you can follow the [installing](#Installing) instructions .
 
-No matter which way you choose, after you have installed the extension you have to do a quick [setup](#Setup).
+After you have installed the extension you need to do a quick [setup](#Setup).
 
 ### Prerequisites
 
-**Needed:**  
+**Required:**  
 * **Visual Studio Code** (this extension was developed with version 1.40.1)
 * **SQLcl** which is used to compile the code
 
@@ -41,7 +41,7 @@ To do so press 'ctrl + shift + p', type in "settings" and choose "Preferences: O
 Then search for "vsql-developer" and add the path of your SQLcl installation.
 ```
 ![](readme-images/sqlclPath.png)
-Note: It may only work after you have restartet Visual Studio code.
+Note: It may only work after you have restarted Visual Studio code.
 
 
 The second step is to add you personal database connection strings
@@ -52,7 +52,7 @@ Now you can add some connections like shown in the image below.
 ```
 ![](readme-images/databaseStrings.PNG)
 
-Note: Just safe the file. The extension will automatically recognize it.
+Note: Just save the file. The extension will automatically recognize it.
 
 Now you are ready to use vsql-developer
 
