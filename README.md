@@ -31,14 +31,14 @@ Get SQLcl [here](https://www.oracle.com/de/database/technologies/appdev/sqlcl.ht
 ### Setup
 After you have successfully installed the extension you need to follow some setup steps to get it working
 
-At first you need to add the path of your your sqlcl installation
+At first you need to add the path of your sqlcl installation
 
 ```
 To do so press 'ctrl + shift + p', type in "settings" and choose "Preferences: Open Settings(UI)".
 ```
 ![](readme-images/settings.png)
 ```
-Then search for "vsql-deveolper" and add the Path to your SQLcl installation.
+Then search for "vsql-developer" and add the path of your SQLcl installation.
 ```
 ![](readme-images/sqlclPath.png)
 Note: It may only work after you have restartet Visual Studio code.
