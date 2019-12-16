@@ -45,28 +45,32 @@ End with an example of getting some data out of the system or using it for a lit
 After you have successfully installed the extension you need to follow some setup steps to get it working
 
 At first you need to add the path of your your sqlcl installation
+
 ```
 To do so press 'ctrl + shift + p', type in "settings" and choose "Preferences: Open Settings(UI)".
 ```
-
+![](readme-images/settings.png)
 ```
 Then search for "vsql-deveolper" and add the Path to your SQLcl installation.
 ```
+![](readme-images/sqlclPath.png)
 Note: It may only work after you have restartet Visual Studio code.
 
 
 The second Step is to add you peronal Database connectionstrings
 ```
 For this you have to create a file named "database_connectionStrings.json" in the root folder of your project.
-Now you can add somme connection strings to your databases like shown in the picture below.
+Now you can add somme connection strings to your databases like shown in the image below.
 ```
-
+![](readme-images/databaseStrings.png)
 Just safe the file. The extension will automatically recognize it.
 
 Now you are ready to use vsql-developer
+
+```
 For that just click on the file containing sql or plsql code which you want to execute.
 Then press 'ctrl + shift + p' and choose "Compile PLSQL".
-
+```
 Feel free to add a key to the "Compile PLSQL"-command(link).
 
 ## Running the tests
@@ -76,7 +80,7 @@ Feel free to add a key to the "Compile PLSQL"-command(link).
 ## Authors
 
 * **Sebastian Koell** - *Project Owner and Idea* -
-* **fd-primus** - *Initial work* - 
+* **fd-primus** - *Development* - 
 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
@@ -87,6 +91,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 ### Thanks to
-*  ... whos guidline i used error file i used (link).
+*  ... whos guidline and error file i used (link).
 *  Creator of odb-task for some inspiration (link).
-* for the readme template (link).
+*  for the readme template (link).
