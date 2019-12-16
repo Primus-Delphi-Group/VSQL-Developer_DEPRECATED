@@ -3,16 +3,16 @@ An Visual Studio Code Extension for compiling (PL)SQL code with SQLcl inside VSc
 
 ## Getting Started
 There are three ways to get this extension running.  
-The easiest way is to just install it from the [visual studio code marketplace]().
-But you can also download an installable [file]().  
-If you want to adjust or expand the extension yourself you can follow the [installing](https://github.com/fd-primus/VSQL-Developer#Installing) instructions .
+1. The easiest way is to just install it from the [visual studio code marketplace]().  
+2. You can also download an installable [file]().  
+3. If you want to adjust or expand the extension yourself you can follow the [installing](#Installing) instructions .
 
 No matter which way you choose, after you have installed the extension you have to do a quick [setup](https://github.com/fd-primus/VSQL-Developer#Setup).
 
 ### Prerequisites
 
 **Needed:**  
-To install the extension you obviously need **Visual Studio Code** (developed with version 1.40.1 but may also work fine with other versions)  
+To install the extension you obviously need **Visual Studio Code** (developed with version 1.40.1)  
 You will also need **SQLcl** which is used to compile the code
 
 Get VsCode [here](https://code.visualstudio.com/)   
