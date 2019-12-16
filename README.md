@@ -24,21 +24,7 @@ get plsql extension(link)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ### Setup
 After you have successfully installed the extension you need to follow some setup steps to get it working
@@ -56,10 +42,11 @@ Then search for "vsql-deveolper" and add the Path to your SQLcl installation.
 Note: It may only work after you have restartet Visual Studio code.
 
 
-The second Step is to add you peronal Database connectionstrings
+The second step is to add you personal database connection strings
 ```
-For this you have to create a file named "database_connectionStrings.json" in  the root folder of your project.
-Now you can add somme connection strings to your databases like shown in the image below.
+For this you have to create a file named "database_connectionStrings.json" in  
+the root folder of your project.
+Now you can add somme connections like shown in the image below.
 ```
 ![](readme-images/databaseStrings.PNG)
 
@@ -68,10 +55,10 @@ Note: Just safe the file. The extension will automatically recognize it.
 Now you are ready to use vsql-developer
 
 ```
-For that just click on the file containing sql or plsql code which you want to execute.
+For this just click on the file containing the (PL)SQL code that you want to execute.
 Then press 'ctrl + shift + p' and choose "Compile PLSQL".
 ```
-Feel free to add a key to the "Compile PLSQL"-command(link).
+Feel free to [add a key](https://code.visualstudio.com/docs/getstarted/keybindings) to the "Compile PLSQL"-command.
 
 ## Running the tests
 
