@@ -1,6 +1,7 @@
 {
 	"name": "vsql-developer",
 	"displayName": "VsQl Developer",
+	"publisher": "fdiehl",
 	"description": "Provides functionallity for compiling PLSQL and SQL code with SQLcl inside VScode",
 	"version": "1.0.0",
 	"engines": {
