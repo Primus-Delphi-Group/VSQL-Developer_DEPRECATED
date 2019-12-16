@@ -58,11 +58,12 @@ Note: It may only work after you have restartet Visual Studio code.
 
 The second Step is to add you peronal Database connectionstrings
 ```
-For this you have to create a file named "database_connectionStrings.json" in the root folder of your project.
+For this you have to create a file named "database_connectionStrings.json" in  the root folder of your project.
 Now you can add somme connection strings to your databases like shown in the image below.
 ```
 ![](readme-images/databaseStrings.PNG)
-Just safe the file. The extension will automatically recognize it.
+
+Note: Just safe the file. The extension will automatically recognize it.
 
 Now you are ready to use vsql-developer
 
@@ -83,13 +84,8 @@ Feel free to add a key to the "Compile PLSQL"-command(link).
 
 
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 ### Thanks to
-*  ... whos guidline and error file i used (link).
-*  Creator of odb-task for some inspiration (link).
-*  for the readme template (link).
+*  Morten Braten whose [guide](https://ora-00001.blogspot.com/2017/03/using-vs-code-for-plsql-development.html) and error file I used
+*  Trent Schafer [odb-task extension](https://marketplace.visualstudio.com/items?itemName=tschf.odb-task) for some inspiration
+*  PurpleBooth for the [readme template](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
