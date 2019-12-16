@@ -2,25 +2,27 @@
 An Visual Studio Code Extension for compiling (PL)SQL code with SQLcl inside VScode
 
 ## Getting Started
-There are three ways to get this extension running in your VScode
-The easiest way is to just install it from the [VScode marketplace]().
-But you can also download an installable [file]().
+There are three ways to get this extension running.  
+The easiest way is to just install it from the [visual studio code marketplace]().
+But you can also download an installable [file]().  
 If you want to adjust or expand the extension yourself you can follow the [installing](https://github.com/fd-primus/VSQL-Developer#Installing) instructions .
 
 No matter which way you choose, after you have installed the extension you have to do a quick [setup](https://github.com/fd-primus/VSQL-Developer#Setup).
 
 ### Prerequisites
 
-Needed:  
-To install the extension you obviously need VisualStudio Code (developed with version 1.40.1 but may also work fine with other versions )  You will also need SQLcl which is used to compile the code
+**Needed:**  
+To install the extension you obviously need **Visual Studio Code** (developed with version 1.40.1 but may also work fine with other versions)  
+You will also need **SQLcl** which is used to compile the code
 
-Get VsCode here: (link)  
-Get SQLcl here: (link)
+Get VsCode [here](https://code.visualstudio.com/)   
+Get SQLcl [here](https://www.oracle.com/de/database/technologies/appdev/sqlcl.html)
 
-Recommended:  
-plsql extension
+**Recommended:**  
+[Language PL/SQL](https://marketplace.visualstudio.com/items?itemName=xyz.plsql-language)  
+[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)  
+[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-get plsql extension(link)
 
 ### Installing
 
