@@ -12,7 +12,7 @@ No matter which way you choose, after you have installed the extension you have 
 ### Prerequisites
 
 Needed:
-To install the software you obviously need VisualStudio Code (developed with version 1.40.1 but may also work fine with other versions )
+To install the extension you obviously need VisualStudio Code (developed with version 1.40.1 but may also work fine with other versions )
 You will also need SQLcl which is used to compile the code
 
 Get VsCode here: (link)
@@ -44,14 +44,24 @@ End with an example of getting some data out of the system or using it for a lit
 ### Setup
 After you have successfully installed the extension you need to follow some setup steps to get it working
 
-At first you need to add the path of your your sqlcl installation.
+At first you need to add the path of your your sqlcl installation
+```
 To do so press 'ctrl + shift + p', type in "settings" and choose "Preferences: Open Settings(UI)".
+```
+
+```
 Then search for "vsql-deveolper" and add the Path to your SQLcl installation.
+```
 Note: It may only work after you have restartet Visual Studio code.
 
-The second Step is to create a file named "database_connectionStrings.json" in the root folder of your project.
+
+The second Step is to add you peronal Database connectionstrings
+```
+For this you have to create a file named "database_connectionStrings.json" in the root folder of your project.
 Now you can add somme connection strings to your databases like shown in the picture below.
-Just safe the file the extension will automatically recogize it.
+```
+
+Just safe the file. The extension will automatically recognize it.
 
 Now you are ready to use vsql-developer
 For that just click on the file containing sql or plsql code which you want to execute.
