@@ -1,65 +1,71 @@
 # vsql-developer README
 
-This is the README for your extension "vsql-developer". After writing up a brief description, we recommend including the following sections.
+This extension provides functionallity to execute and compile (PL)SQL code on an oracle Database with SQLcl.
 
 ## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+* executing and compiling (PL)SQL code
+* problems will be shown in the terminal
+* you can add multiple databases
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+**Required:**  
+* **SQLcl** which is used to compile the code
+  
+Get SQLcl [here](https://www.oracle.com/de/database/technologies/appdev/sqlcl.html)
+
+**Recommended:**  
+* [Language PL/SQL](https://marketplace.visualstudio.com/items?itemName=xyz.plsql-language)  
+* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)  
+* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+## Setup
+After you have successfully installed the extension you need to follow some setup steps to get it working.
+
+### At first you need to add the path of your sqlcl installation:
+
+```
+To do so press 'ctrl + shift + p', type in "settings" and choose "Preferences: Open Settings(UI)".
+```
+![](readme-images/settings.png)
+```
+Then search for "vsql-developer" and add the path of your SQLcl installation.
+```
+![](readme-images/sqlclPath.png)
+Note: It may only work after you have restarted Visual Studio code.
+
+
+### The second step is, to add your personal database connection strings:
+```
+For this you have to create a file named "database_connectionStrings.json" in  
+the root folder of your project.
+Now you can add some connections like shown in the image below.
+```
+![](readme-images/databaseStrings.PNG)
+
+Note: Just save the file. The extension will automatically recognize it.
+
+Now you are ready to use vsql-developer!
+
+```
+For this just click on the file containing the (PL)SQL code that you want to execute.
+Then press 'ctrl + shift + p' and choose "Compile PLSQL".
+```
+Feel free to [add a key](https://code.visualstudio.com/docs/getstarted/keybindings) to the "Compile PLSQL"-command.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+* `vsql-developer.sqlcl`: set the path to your SQLcl installation
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+For now the database connection builds up every time you call CompilePLSQL command.
+To get a permanent connection we are currently working on a version which adjusts the terminal to stay connected in SQLcl until you exit or change the database.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release of VSQL-Developer
 
 -----------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

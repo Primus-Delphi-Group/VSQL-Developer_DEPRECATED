@@ -36,21 +36,21 @@ At first you need to add the path of your sqlcl installation
 ```
 To do so press 'ctrl + shift + p', type in "settings" and choose "Preferences: Open Settings(UI)".
 ```
-![](readme-images/settings.png)
+![](vsql-developer/readme-images/settings.png)
 ```
 Then search for "vsql-developer" and add the path of your SQLcl installation.
 ```
-![](readme-images/sqlclPath.png)
+![](vsql-developerreadme-images/sqlclPath.png)
 Note: It may only work after you have restarted Visual Studio code.
 
 
-The second step is to add you personal database connection strings
+The second step is to add your personal database connection strings
 ```
 For this you have to create a file named "database_connectionStrings.json" in  
 the root folder of your project.
 Now you can add some connections like shown in the image below.
 ```
-![](readme-images/databaseStrings.PNG)
+![](vsql-developerreadme-images/databaseStrings.PNG)
 
 Note: Just save the file. The extension will automatically recognize it.
 

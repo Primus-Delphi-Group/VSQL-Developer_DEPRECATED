@@ -30,12 +30,7 @@
 					"type": "string",
 					"default": "sql",
 					"description": "The Path to your sqlcl executable"
-					},
-					"vsql-developer.warnings":{
-						"type": "string",
-						"default": "1",
-						"description": "The WarningLevel"
-						}
+					}
 				}
 			}
 		],
