@@ -7,18 +7,18 @@ export function activate(this: any, context: vscode.ExtensionContext) {
     const myContext = this;
     //first we need to get some infomation from the user with vscode configuration 
     let config  = vscode.workspace.getConfiguration("vsql-developer");
-
+    let sqlclPfad = <string> config.get("sqlcl");
+    let workspacePath = <string> vscode.workspace.rootPath;
     //finds out if the SQLcl path is absolute, relative or just the global constant
-    if(config.get("sqlcl").startsWith(":", 1)){
-        let absolutePath = config.get("sqlcl");
-        let relativePath = path.relative(vscode.workspace.rootPath,absolutePath);
+    if(sqlclPfad.startsWith(":", 1)){
+        let relativePath = path.relative(workspacePath,sqlclPfad);
         myContext.sqlclPath = relativePath;
     }
     else{
         myContext.sqlclPath = config.get("sqlcl");
     }
     //gets all connectionstrings from database_connectionstrings file
-    let connectionStrings_file = path.join(vscode.workspace.rootPath, "database_connectionStrings.json");
+    let connectionStrings_file = path.join(workspacePath, "database_connectionStrings.json");
     let connectionStrings = JSON.parse(fs.readFileSync(connectionStrings_file).toString());
     let targets = connectionStrings.map((target: { label: any; targetName: any; }) => {
         target.label = target.targetName;
@@ -52,8 +52,9 @@ function chooseConnection(databases: any, conStrings: any,sqlclPath:any ){
 		vscode.window.showQuickPick(conStrings)
 		.then(selected => {
 			if(selected){
-                var dataset2 = selected.connectionString;
-                compilescript(dataset2, sqlclPath);
+                var dataset = <any> selected;
+                var datasetString = dataset.connectionString;
+                compilescript(datasetString, sqlclPath);
 			}
 		});
 	}
