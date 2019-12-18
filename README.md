@@ -4,7 +4,7 @@ An Visual Studio Code Extension for compiling (PL)SQL code with SQLcl inside VSc
 ## Getting Started
 There are three ways to get this extension running.  
 1. The easiest way is to just install it from the [visual studio code marketplace]().  
-2. You can also download an installable [file]().  
+2. You can also download an installable [file](./installable).  
 3. If you want to adjust or expand the extension yourself you can follow the [installing](#Installing) instructions .
 
 After you have installed the extension you need to do a quick [setup](#Setup).

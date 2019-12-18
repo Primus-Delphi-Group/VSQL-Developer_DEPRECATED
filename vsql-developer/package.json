@@ -7,7 +7,10 @@
 	"engines": {
 		"vscode": "^1.40.0"
 	},
-	"private": true,
+	"repository": {
+  		"type" : "git",
+  		"url" : "https://github.com/fd-primus/VSQL-Developer"
+	},
 	"categories": [
 		"Other"
 	],
