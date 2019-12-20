@@ -39,10 +39,26 @@ Note: It may only work after you have restarted Visual Studio code.
 ```
 For this you have to create a file named "database_connectionStrings.json" in  
 the root folder of your project.
-Now you can add some connections like shown in the image below.
+Now you can add some connections like shown in the code sample below.
 ```
-![If you can read this some images are missing. Pleae visit github repository for full documentation](readme-images/databaseStrings.PNG)
 
+**CODE:**
+```
+[
+    {
+        "targetName":"Beispiel 1",
+        "connectionString":"NOT A REAL CONNECTION STRING"
+    },
+    {
+        "targetName":"Beispiel 2",
+        "connectionString":"NOT A REAL CONNECTION STRING" 
+    },
+    {
+        "targetName":"Beispiel 3",
+        "connectionString":"NOT A REAL CONNECTION STRING" 
+    }
+]
+```
 Note: Just save the file. The extension will automatically recognize it.
 
 Now you are ready to use vsql-developer!
