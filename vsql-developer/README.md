@@ -27,11 +27,11 @@ After you have successfully installed the extension you need to follow some setu
 ```
 To do so press 'ctrl + shift + p', type in "settings" and choose "Preferences: Open Settings(UI)".
 ```
-![If you can read this some images are missing. Please visit [github](https://github.com/fd-primus/VSQL-Developer/blob/master/vsql-developer/README.md) for full documentation](readme-iages/settings.png)
+![If you can read this some images are missing. Pleae visit github repository for full documentation](readme-images/settings.png)
 ```
 Then search for "vsql-developer" and add the path of your SQLcl installation.
 ```
-![[]()](readme-images/sqlclPath.png)
+![If you can read this some images are missing. Pleae visit github repository for full documentation](readme-images/sqlclPath.png)
 Note: It may only work after you have restarted Visual Studio code.
 
 
@@ -41,7 +41,7 @@ For this you have to create a file named "database_connectionStrings.json" in
 the root folder of your project.
 Now you can add some connections like shown in the image below.
 ```
-![](readme-images/databaseStrings.PNG)
+![If you can read this some images are missing. Pleae visit github repository for full documentation](readme-images/databaseStrings.PNG)
 
 Note: Just save the file. The extension will automatically recognize it.
 
