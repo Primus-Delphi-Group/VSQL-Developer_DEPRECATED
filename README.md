@@ -20,9 +20,6 @@ Get SQLcl [here](https://www.oracle.com/de/database/technologies/appdev/sqlcl.ht
 
 **Recommended:**  
 * [Language PL/SQL](https://marketplace.visualstudio.com/items?itemName=xyz.plsql-language)  
-* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)  
-* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
 
 ### Installing
 
