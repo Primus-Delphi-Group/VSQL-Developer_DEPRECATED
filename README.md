@@ -65,8 +65,8 @@ Feel free to [add a key](https://code.visualstudio.com/docs/getstarted/keybindin
 
 ## Authors
 
-* **Sebastian Koell** - *Project Owner and Idea* -
-* **fd-primus** - *Development* - 
+* **[@S-Koell](https://github.com/S-Koell)** - *Project Owner and Idea* -
+* **[@fd-primus](https://github.com/fd-primus)** - *Development* - 
 
 
 
